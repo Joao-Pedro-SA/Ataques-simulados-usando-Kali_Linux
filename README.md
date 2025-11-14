@@ -97,4 +97,4 @@ hydra -L usuarios.txt -P senhas.txt 192.168.56.101 http-post-form \
 
 ---
 
-> 📌 Nota: Todas as atividades foram realizadas em ambiente controlado e para fins educacionais.
+> 📌 Nota: Todas as atividades foram realizadas em ambiente controlado utilizando VMs para fins educacionais.
